@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal|center_vertical">
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ЯНВ 9"
+        style="@style/WhiteText"
+        android:textSize="45sp"/>
+
+    <TextView
+        android:id="@+id/dayOfTheWeek"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Сегодня вечером"
+        style="@style/WhiteText"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Температура (Мин/Макс):"
+            style="@style/WhiteText"/>
+        <TextView
+            android:id="@+id/temp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-2/--"
+            style="@style/WhiteText"/>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Снег с раннего утра"
+        style="@style/WhiteText"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Вероятность осадков:"
+            style="@style/WhiteText"/>
+        <TextView
+            android:id="@+id/precip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="70%"
+            style="@style/WhiteText"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ветер: "
+            style="@style/WhiteText"/>
+        <TextView
+            android:id="@+id/wind"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="З 18 км/ч"
+            style="@style/WhiteText"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Влажность:"
+            style="@style/WhiteText"/>
+        <TextView
+            android:id="@+id/humidity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="92%"
+            style="@style/WhiteText"/>
+    </LinearLayout>
+    <WebView
+        android:id="@+id/icon"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@android:color/transparent" />
+    <!--<RelativeLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent">-->
+
+        <!--<ImageView android:id="@+id/iconIMG"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content" />-->
+    <!--</RelativeLayout>-->
+
+<!--    <FrameLayout-->
+<!--        android:id="@+id/icon"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="match_parent"/>-->
+
+
+</LinearLayout>

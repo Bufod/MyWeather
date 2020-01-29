@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#01449D</color>
+    <color name="colorPrimaryDark">#012B69</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="weatherComColor">#0170F7</color>
+</resources>
